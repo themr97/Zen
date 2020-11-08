@@ -15,7 +15,7 @@ request.send();
 request.onload = function () {
     var data = JSON.parse(this.response);
     {
-        for(i=0;i<data.length;i++){
+        for(i=0;i<data.length-1;i++){
             console.log(data[i].flag);
         }
     }
