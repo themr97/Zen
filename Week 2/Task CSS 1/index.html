@@ -3,27 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
+    <script src="https://kit.fontawesome.com/ebb10d963c.js" crossorigin="anonymous"></script>
     <style>
+        
+    .top{
+        position: relative;
+        text-align: center;
+        height: 30%;
+        background-color: rgb(73, 61, 61);
+        border-bottom-style: solid;
+    }
     #left{
-        background-color: #ff9e2c;
+        margin: 10px;
+        padding: 20px;
         position: absolute;
         top: 30%;
         left: 0px;
         height: 70%;
-        width: 50%;
+        width: 48%;
     }
     #right{
-        background-color: #b6701e;
+        border-left-style: solid;
+        margin: 10px;
+        padding: 20px;
+        margin-left: 1px;
         position: absolute;
         right: 0px;
-        height: 50%;
-        width: 50%;
+        height: 70%;
+        width: 48%;
+        top: 30%;
+    }
+    img{
+        clip-path: circle(40%);
+    }
+    .div1{
+        font-size: xx-large;
+        background-color:orange;
+        padding: 5px;
     }
     </style>
 </head>
 <body>
-    <section id="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, reiciendis! Perferendis ducimus quaerat ad rerum cum nulla, eius, incidunt rem est quod sapiente harum labore maiores nam. Sapiente, consequatur pariatur?</section>
-    <section id="right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ut nihil rerum porro fugiat quibusdam obcaecati, ratione perferendis quo deleniti culpa asperiores, odit at odio tenetur quisquam fuga praesentium dicta!</section>
+
+    <div class="top"><img src="1.png" alt=""><br>
+    <div class="div1">MAHESH RAJESH RANPISE</div>
+    <div style="background-color: white;">Vashi, Navi Mumbai 400703| 9619287478 | mahesh8276@gmail.com | themr.me </div>
+    </div>
+    
+    <section id="left"><div><div style="font-size: xx-large;"><i class="fas fa-user-circle"></i> Profile</div><br>
+        My aim in life is to be successful in my field of work & motto is to preserve to the highest point
+        & secure a position where I can effectively contribute my skills and abilities in the IT industry as
+        a professional possessing competent technical skill.</div><br><br><br>
+        <div><div style="font-size: xx-large;"><i class="fas fa-keyboard"></i></i> Skills</div><br>
+        <div style="text-align: center; font-size: larger;">Technical Skills</div><br><br><br>
+        <div>JavaScript &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="range" value="70" class="slider" id="myRange"><br>
+            Python &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="range" value="50" class="slider" id="myRange2"><br>
+            HTML and CSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="range" value="60" class="slider" id="myRange5"><br>
+            Java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="range" value="90" class="slider" id="myRange3"><br>
+            C++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="range" value="90" class="slider" id="myRange4"></div>
+        </div>
+    
+    </section>
+    <section id="right"><div><div style="font-size: xx-large;"><i class="fas fa-university"></i> Education</div><br>
+        <div>B.E in <b>Information Technology</b> from Saraswati College of Engineering Kharghar <b>2017-2020</b></div>
+       <ul>
+            <b>Projects done</b>
+           <li>Wall Crack Detection using Image Processing.</li>
+           <li>IOT Wireless Notice Board for College</li>
+           <li>Smart Farming using IOT</li>
+       </ul></div>
+        <div>Diploma in <b>Computer Technology</b> from Bharati Vidyapeeth College of Information Technology <b>2015-2017</b></div>
+       <ul>
+            <b>Projects Done</b>
+           <li>Android Application : Buddy Tracker</li>
+           <li>Java Application: Library Management</li>
+       </ul></div></section>
 </body>
 </html>
