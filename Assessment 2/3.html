@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 17px 'Poppins',helvetica,sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 50px;
+  background: #eee;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: 40px;
+  justify-items: center;
+  align-items: center;
+}
+
+.grid-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+article {
+  position: relative;
+  background: #fff;
+  border-radius: 4px;
+}
+
+
+h2 {
+  font-size: 1.35em;
+  margin: 0;
+  padding: 0 20px;
+}
+
+img {
+  height: 250px;
+  width: 400px;
+  margin: 0;
+}
+
+figure {
+  margin: 0 0 2px 0;
+}
+
+p{
+  padding: 0 20px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 50%;
+}
+
+@media only screen
+and (max-width : 1024px) {
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
+
+@media only screen
+and (max-width : 768px) {
+  
+  body {
+    padding: 30px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  
+}
+    </style>
+</head>
+<body>
+  <a href="index.html">Q1</a>
+  <a href="2.html">Q2</a>
+  <a href="3.html">Q3</a>
+<div class="grid-container">
+  <article>
+    <figure>
+      <img src="4.jpeg" alt="">
+    </figure>
+    <h2>Product Title</h2>
+    <p class="dis">
+    Prodcut description
+    </p>
+    <p>$21.000 <input type="submit" value="Add to Cart"></p>
+  </article>
+  <article>
+    <figure>
+      <img src="4.jpeg" alt="">
+    </figure>
+    <h2>Product Title</h2>
+    <p class="dis">
+      Prodcut description
+    </p>
+    <p>$21.000 <input type="submit" value="Add to Cart"></p>
+  </article>
+  <article>
+    <figure>
+      <img src="4.jpeg" alt="">
+    </figure>
+    <h2>Product Title</h2>
+    <p class="dis">
+      Prodcut description
+    </p>
+    <p>$21.000 <input type="submit" value="Add to Cart"></p>
+  </article>  
+  <article>
+    <figure>
+      <img src="4.jpeg" alt="">
+    </figure>
+    <h2>Product Title</h2>
+    <p class="dis">
+      Prodcut description
+    </p>
+    <p>$21.000 <input type="submit" value="Add to Cart"></p>
+  </article> 
+  <article>
+    <figure>
+      <img src="4.jpeg" alt="">
+    </figure>
+    <h2>Product Title</h2>
+    <p class="dis">
+      Prodcut description
+    </p>
+    <p>$21.000 <input type="submit" value="Add to Cart"></p>
+  </article> 
+  <article>
+    <figure>
+      <img src="4.jpeg" alt="">
+    </figure>
+    <h2>Product Title</h2>
+    <p class="dis">
+      Prodcut description
+    </p>
+    <p>$21.000 <input type="submit" value="Add to Cart"></p>
+  </article> 
+  <article>
+    <figure>
+      <img src="4.jpeg" alt="">
+    </figure>
+    <h2>Product Title</h2>
+    <p class="dis">
+      Prodcut description
+    </p>
+    <p>$21.000 <input type="submit" value="Add to Cart"></p>
+  </article> 
+  <article>
+    <figure>
+      <img src="4.jpeg" alt="">
+    </figure>
+    <h2>Product Title</h2>
+    <p class="dis">
+      Prodcut description
+    </p>
+    <p>$21.000 <input type="submit" value="Add to Cart"></p>
+  </article> 
+  <article>
+    <figure>
+      <img src="4.jpeg" alt="">
+    </figure>
+    <h2>Product Title</h2>
+    <p class="dis">
+      Prodcut description
+    </p>
+    <p>$21.000 <input type="submit" value="Add to Cart"></p>
+  </article>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+<script src="https://kit.fontawesome.com/ebb10d963c.js" crossorigin="anonymous"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select {
+  width: auto;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+</style>
+</head>
+<body>
+  <a href="index.html">Q1</a>
+  <a href="2.html">Q2</a>
+  <a href="3.html">Q3</a>
+<script>
+  function on(){
+    alert("Thankyou for submission")
+  }
+
+</script>
+
+<div class="container">
+  <form onsubmit="on()">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Full Name</label>
+      </div>
+      <div class="col-75">
+        <i class="fas fa-user-alt"></i>
+        <input type="text" id="fname" name="firstname" placeholder="Full Name" required></i>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+          <label for="add1">Address Line 1</label>
+        </div>
+        <div class="col-75">
+          <i class="fas fa-address-book"></i>
+          <input type="text" id="add1" name="address1" placeholder="Address Line 1" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="addr2">Address Line 2</label>
+        </div>
+        <div class="col-75">
+          <i class="fas fa-address-book"></i>
+          <input type="text" id="addr2" name="address2" placeholder="Address Line 2" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="cit">City</label>
+        </div>
+        <div class="col-75">
+          <i class="fas fa-city"></i>
+          <input type="text" id="cit" name="city" placeholder="City" required>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="state">State/Province/Region</label>
+      </div>
+      <div class="col-75">
+        <i class="fas fa-map-marker-alt"></i>
+        <input type="text" id="state" name="state1" placeholder="State/Province/Region" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="zip">Postal Code/ZIP</label>
+      </div>
+      <div class="col-75">
+        <i class="far fa-envelope-open"></i>
+        <input type="text" id="zip" name="post" placeholder="Postal Code/ZIP" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <i class="fas fa-map"></i>
+        <select id="country" name="country">
+          <option value="india">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="ema">Email</label>
+      </div>
+      <div class="col-75">
+        <i class="fas fa-user-alt"></i>
+        <input type="email" id="ema" name="mail" placeholder="Email" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="no">Phone Number</label>
+      </div>
+      <div class="col-75">
+        <i class="fas fa-user-alt"></i>
+        <input type="tel" id="no" name="phno" placeholder="Phone Number" required>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
