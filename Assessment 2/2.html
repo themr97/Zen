@@ -16,15 +16,25 @@
   .container {
     width: 750px;
   }
+  .bott{
+    grid-template-columns: 1fr;
+  }
+  }
   }
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
+  .bott{
+    grid-template-columns: 1fr;
+  }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+  .bott{
+    grid-template-columns: 1fr;
   }
 }
 .nav{
@@ -78,6 +88,15 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.bott {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: 60px;
+  justify-items: center;
+  align-items: center;
+  margin: 40px;
+}
     </style>
 </head>
 <body style="background-color: gainsboro;">
@@ -97,9 +116,36 @@
         <div class="top">
         <h1 class="jumb">Jumbotron Heading</h1>
         <h2 style="text-align: center;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione accusantium adipisci animi autem at, repellendus non distinctio. Ad perspiciatis quod ullam illo similique harum sint provident, itaque aliquid inventore rem?</h2>
-          <button class="tb" style="background-color: green;">Sign Up Today</button><br>
-          <button class="tb" style="background-color:blue;">Launch Demo Modal</button>
-      </div>
+            <center><button class="tb" style="background-color: green;">Sign Up Today</button><br></center>
+            <center><button class="tb" style="background-color:blue;">Launch Demo Modal</button></center>
+        </div>
+        <div class="bott">
+          <article>
+            <h2>Subheading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error qui, molestias neque, iusto perspiciatis earum harum velit </p>
+          </article>
+          <article>
+            <h2>Subheading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error qui, molestias neque, iusto perspiciatis earum harum velit </p>
+          </article>
+          <article>
+            <h2>Subheading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error qui, molestias neque, iusto perspiciatis earum harum velit </p>
+          </article>
+          <article>
+            <h2>Subheading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error qui, molestias neque, iusto perspiciatis earum harum velit </p>
+          </article>
+          <article>
+            <h2>Subheading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error qui, molestias neque, iusto perspiciatis earum harum velit </p>
+          </article>
+          <article>
+            <h2>Subheading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error qui, molestias neque, iusto perspiciatis earum harum velit </p>
+          </article>
+          
+        </div>
     </div>
 </body>
 </html>
