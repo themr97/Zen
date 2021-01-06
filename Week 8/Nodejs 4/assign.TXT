@@ -1,0 +1,16 @@
+Create a Random Number and store in User Document along with expiry time 10min
+
+Send the random number  and user-email in url parameter in mail
+
+reset/:email/:randnumer
+
+
+When user clicks the link
+Check the email and random code is same and check expiry time is less
+
+Show change password page
+Allow him to change the password
+
+User should enter the password two times
+When submit
+Encrypt the password update in DB

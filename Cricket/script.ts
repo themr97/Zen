@@ -1,3 +1,5 @@
+// Container
+
 let container = document.createElement("div");
 container.setAttribute("class", "container-fluid");
 
@@ -9,7 +11,7 @@ col1.setAttribute("class", "col");
 col1.setAttribute("style", "text-align:center;");
 let h2 = document.createElement("h2");
 h2.innerText = "Cricket 10";
-h2.setAttribute("class","h2-display")
+h2.setAttribute("class","display-1")
 col1.appendChild(h2);
 row1.appendChild(col1);
 container.appendChild(row1);
